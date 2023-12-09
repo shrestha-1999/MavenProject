@@ -2,8 +2,8 @@ package com.shrestha.exception;
 
 public class IdNotFoundException extends RuntimeException {
 
-    public IdNotFoundException(int id) {
+    public IdNotFoundException(String msg) {
 
-        super(String.format("%d not found", id));
+        super(msg);
     }
 }
