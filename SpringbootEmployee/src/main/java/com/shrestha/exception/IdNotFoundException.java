@@ -6,4 +6,5 @@ public class IdNotFoundException extends RuntimeException {
 
         super(msg);
     }
+
 }

@@ -6,7 +6,7 @@ import java.util.ArrayList;
 @Component
 public class EmployeeRepo {
     private static ArrayList<Employee> employees;
-    private EmployeeRepo(){
+    public EmployeeRepo(){
         employees = new ArrayList<>();
     }
     public int addEmployee(Employee e1) {
@@ -23,4 +23,3 @@ public class EmployeeRepo {
         return null; // Employee not found
     }
 }
-
