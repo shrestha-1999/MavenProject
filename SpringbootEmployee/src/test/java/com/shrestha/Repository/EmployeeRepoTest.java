@@ -20,11 +20,11 @@ class EmployeeRepoTest {
 
     @Test
     void TestGetEmployeeById() {
-        Employee sampleEmployee = new Employee("John Doe", 30);
+        Employee sampleEmployee = new Employee("Moumi", 20);
         repo.addEmployee(sampleEmployee);
         Employee getEmp = repo.getEmployeeById(0);
-        assertEquals("John Doe",getEmp.getName());
-        assertEquals(30, getEmp.getAge());
+        assertEquals("Moumi",getEmp.getName());
+        assertEquals(20, getEmp.getAge());
     }
 
 
