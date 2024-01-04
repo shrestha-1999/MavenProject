@@ -12,7 +12,7 @@ class EmployeeRepoTest {
     @Test
     void TestAddEmployee() {
 
-        Employee employee = new Employee("John Doe", 30);
+        Employee employee = new Employee("Debadyuti", 25);
         int result = repo.addEmployee(employee);
         assertEquals(0, result);
         assertEquals(0, employee.getId());
