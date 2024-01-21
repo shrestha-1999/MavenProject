@@ -20,7 +20,6 @@ public class EmployeeControllerTest {
 
     @Test
     void TestGetEmployee() {
-        EmployeeRepo repo = new EmployeeRepo();
         EmployeeController controller = new EmployeeController(repo);
 
         Employee employee = new Employee("Debu", 26);
